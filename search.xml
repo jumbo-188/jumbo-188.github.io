@@ -3,7 +3,10 @@
   <entry>
     <title>基于github-gitee搭建的hexo博客</title>
     <url>/2020/11/11/%E5%9F%BA%E4%BA%8Egithub-gitee%E6%90%AD%E5%BB%BA%E7%9A%84hexo%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><h2 id="Github-Pages"><a href="#Github-Pages" class="headerlink" title="Github Pages"></a>Github Pages</h2><p>GitHub Pages 是由 GitHub 官方提供的一种免费的静态站点托管服务，让我们可以在 GitHub 仓库里托管和发布自己的静态网站页面。</p>
+    <content><![CDATA[<p>hexo blog搭建，并通过github和gitee进行托管</p>
+<a id="more"></a>
+
+<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><h2 id="Github-Pages"><a href="#Github-Pages" class="headerlink" title="Github Pages"></a>Github Pages</h2><p>GitHub Pages 是由 GitHub 官方提供的一种免费的静态站点托管服务，让我们可以在 GitHub 仓库里托管和发布自己的静态网站页面。</p>
 <p><a href="https://docs.github.com/cn/free-pro-team@latest/github/working-with-github-pages/about-github-pages">Which is Github Pages? - Github Help </a></p>
 <h2 id="Gitee-Pages"><a href="#Gitee-Pages" class="headerlink" title="Gitee Pages"></a>Gitee Pages</h2><p>Gitee Pages 是一个免费的静态网页托管服务，可以使用 Gitee Pages 托管博客、项目官网等静态网页。目前 Gitee Pages 支持 Jekyll、Hugo、Hexo编译静态资源。</p>
 <p><a href="https://gitee.com/help/articles/4136#article-header0">Gitee Pages - Gitee 帮助中心</a></p>
@@ -111,7 +114,10 @@
   <entry>
     <title>Hexo基础</title>
     <url>/2020/11/13/Hexo%E5%9F%BA%E7%A1%80/</url>
-    <content><![CDATA[<h1 id="Hexo目录结构"><a href="#Hexo目录结构" class="headerlink" title="Hexo目录结构"></a>Hexo目录结构</h1><p>新建完成后，指定文件夹的目录如下</p>
+    <content><![CDATA[<p>Hexo基础知识介绍</p>
+<a id="more"></a>
+
+<h1 id="Hexo目录结构"><a href="#Hexo目录结构" class="headerlink" title="Hexo目录结构"></a>Hexo目录结构</h1><p>新建完成后，指定文件夹的目录如下</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── source</span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure>
 
 <p><strong><em>_config.yml</em></strong></p>
@@ -173,7 +179,10 @@
   <entry>
     <title>Hello World</title>
     <url>/2020/11/11/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>!</p>
+<a id="more"></a>
+
+<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
