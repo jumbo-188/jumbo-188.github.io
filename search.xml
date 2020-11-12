@@ -14,6 +14,10 @@
 <p><a href="https://hexo.io/zh-cn/">官网: hexo</a></p>
 <h1 id="文章发布原理"><a href="#文章发布原理" class="headerlink" title="文章发布原理"></a>文章发布原理</h1><p>在本地撰写 Markdown 格式文章后，通过 Hexo 解析文档，渲染生成具有主题样式的 HTML 静态网页，再推送到 GitHub/Gitee 上完成博文的发布。</p>
 <p>![发布原理](/Users/jnxing/Library/Application Support/typora-user-images/image-20201111123423788.png)</p>
+
+
+
+
 <h1 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h1><p>安装hexo前需安装下列程序</p>
 <ul>
 <li>Node.js  版本需不低于 10.13，建议使用 Node.js 12.0 及以上</li>
