@@ -104,13 +104,12 @@
       
 
       
-      <p>[toc]</p>
-<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><h2 id="Github-Pages"><a href="#Github-Pages" class="headerlink" title="Github Pages"></a>Github Pages</h2><p>GitHub Pages 是由 GitHub 官方提供的一种免费的静态站点托管服务，让我们可以在 GitHub 仓库里托管和发布自己的静态网站页面。</p>
-<p>[Which is Github Pages? - Github Help ][<a target="_blank" rel="noopener" href="https://docs.github.com/cn/free-pro-team@latest/github/working-with-github-pages/about-github-pages]">https://docs.github.com/cn/free-pro-team@latest/github/working-with-github-pages/about-github-pages]</a></p>
+      <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><h2 id="Github-Pages"><a href="#Github-Pages" class="headerlink" title="Github Pages"></a>Github Pages</h2><p>GitHub Pages 是由 GitHub 官方提供的一种免费的静态站点托管服务，让我们可以在 GitHub 仓库里托管和发布自己的静态网站页面。</p>
+<p><a target="_blank" rel="noopener" href="https://docs.github.com/cn/free-pro-team@latest/github/working-with-github-pages/about-github-pages">Which is Github Pages? - Github Help </a></p>
 <h2 id="Gitee-Pages"><a href="#Gitee-Pages" class="headerlink" title="Gitee Pages"></a>Gitee Pages</h2><p>Gitee Pages 是一个免费的静态网页托管服务，可以使用 Gitee Pages 托管博客、项目官网等静态网页。目前 Gitee Pages 支持 Jekyll、Hugo、Hexo编译静态资源。</p>
-<p>[Gitee Pages - Gitee 帮助中心][<a target="_blank" rel="noopener" href="https://gitee.com/help/articles/4136#article-header0]">https://gitee.com/help/articles/4136#article-header0]</a></p>
+<p><a target="_blank" rel="noopener" href="https://gitee.com/help/articles/4136#article-header0">Gitee Pages - Gitee 帮助中心</a></p>
 <h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><p>Hexo 是一个快速、简洁且高效的静态博客框架，它基于 Node.js 运行，可以将我们撰写的 Markdown 文档解析渲染成静态的 HTML 网页。</p>
-<p>[官网: hexo][<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/]">https://hexo.io/zh-cn/]</a></p>
+<p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">官网: hexo</a></p>
 <h1 id="文章发布原理"><a href="#文章发布原理" class="headerlink" title="文章发布原理"></a>文章发布原理</h1><p>在本地撰写 Markdown 格式文章后，通过 Hexo 解析文档，渲染生成具有主题样式的 HTML 静态网页，再推送到 GitHub/Gitee 上完成博文的发布。</p>
 <p>![发布原理](/Users/jnxing/Library/Application Support/typora-user-images/image-20201111123423788.png)</p>
 <h1 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h1><p>安装hexo前需安装下列程序</p>
@@ -120,7 +119,7 @@
 </ul>
 <p>Hexo基于node.js，当前环境中需安装node.js。</p>
 <p>安装Node.js会包含环境变量及npm的安装。</p>
-<p>前往[官网][<a target="_blank" rel="noopener" href="https://nodejs.org/en/]%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E3%80%82">https://nodejs.org/en/]下载安装。</a></p>
+<p>前往<a target="_blank" rel="noopener" href="https://nodejs.org/en/">官网</a>下载安装。</p>
 <p>安装后，输入以下命令检测是否安装成功。</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
 
@@ -139,7 +138,7 @@
 <p>启动本地服务及预览</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 新建hexo blog</span></span><br><span class="line">hexo n &quot;myblog&quot;</span><br><span class="line"><span class="meta">#</span><span class="bash"> 生成页面</span></span><br><span class="line">hexo g</span><br><span class="line"><span class="meta">#</span><span class="bash"> 本地预览</span></span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 
-<p>本地访问地址:  [<a href="http://localhost:4000][http://localhost:4000]">http://localhost:4000][http://localhost:4000]</a></p>
+<p>本地访问地址:  <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a></p>
 <h1 id="Hexo部署至Github-Gitee"><a href="#Hexo部署至Github-Gitee" class="headerlink" title="Hexo部署至Github/Gitee"></a>Hexo部署至Github/Gitee</h1><h2 id="Git最小化配置"><a href="#Git最小化配置" class="headerlink" title="Git最小化配置"></a>Git最小化配置</h2><p>设置全局配置， name及email参数需与Github,Gitee注册信息相同。</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &#x27;jumbo-188&#x27;</span><br><span class="line">git config --global user.email &#x27;xingjingnan@aliyun.com&#x27;</span><br><span class="line"><span class="meta">#</span><span class="bash"> 查看配置</span></span><br><span class="line">git config --global --list</span><br></pre></td></tr></table></figure>
 
@@ -176,17 +175,17 @@
 <li>Gitee.io</li>
 </ul>
 <p>Gitee Pages服务无法自动刷新，需登录Gitee仓库，手动更新Gitee Pages。</p>
-<p> <a target="_blank" rel="noopener" href="https://jumbo-188.gitee.io/">https://jumbo-188.gitee.io</a></p>
+<p> <a href="https://jumbo-188.gitee.io/">https://jumbo-188.gitee.io</a></p>
 <ul>
 <li>Github.io</li>
 </ul>
 <p>Github Pages会自动刷新，浏览器打开即可。</p>
-<p>[<a href="https://jumbo-188.github.io][https://jumbo-188.github.io]">https://jumbo-188.github.io][https://jumbo-188.github.io]</a></p>
-<h1 id="问题记录"><a href="#问题记录" class="headerlink" title="问题记录"></a>问题记录</h1><h2 id="1-hexo-init-卡顿解决办法"><a href="#1-hexo-init-卡顿解决办法" class="headerlink" title="1. hexo init 卡顿解决办法"></a>1. hexo init 卡顿解决办法</h2><p>[参考文章][<a target="_blank" rel="noopener" href="https://weilining.github.io/201021.html]">https://weilining.github.io/201021.html]</a> 再此基础上修改，可稳定快速初始化hexo。</p>
+<p><a target="_blank" rel="noopener" href="https://jumbo-188.github.io/">https://jumbo-188.github.io</a></p>
+<h1 id="问题记录"><a href="#问题记录" class="headerlink" title="问题记录"></a>问题记录</h1><h2 id="1-hexo-init-卡顿解决办法"><a href="#1-hexo-init-卡顿解决办法" class="headerlink" title="1. hexo init 卡顿解决办法"></a>1. hexo init 卡顿解决办法</h2><p><a target="_blank" rel="noopener" href="https://weilining.github.io/201021.html">参考文章</a> 再此基础上修改，可稳定快速初始化hexo。</p>
 <p>原命令</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure>
 
-<p>[hexo init 源码][<a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-cli/blob/master/lib/console/init.js]">https://github.com/hexojs/hexo-cli/blob/master/lib/console/init.js]</a></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-cli/blob/master/lib/console/init.js">hexo init 源码</a></p>
 <p>源码解析</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/hexojs/hexo-starter.git blog</span><br><span class="line">cd blog</span><br><span class="line">git submodule init</span><br><span class="line">git submodule update</span><br><span class="line">npm i</span><br></pre></td></tr></table></figure>
 
@@ -269,7 +268,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2020/11/11/%E5%9F%BA%E4%BA%8Egithub-gitee%E6%90%AD%E5%BB%BA%E7%9A%84hexo%E5%8D%9A%E5%AE%A2/" data-id="ckhdn9vc20001i3gtarvr4moh" class="article-share-link">
+      <a data-url="http://jumbo-188.gitee.io/2020/11/11/%E5%9F%BA%E4%BA%8Egithub-gitee%E6%90%AD%E5%BB%BA%E7%9A%84hexo%E5%8D%9A%E5%AE%A2/" data-id="ckhf9cut40001s8889precus4" class="article-share-link">
         分享
       </a>
       
@@ -338,7 +337,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2020/11/11/hello-world/" data-id="ckhdn9vbu0000i3gt383udpsd" class="article-share-link">
+      <a data-url="http://jumbo-188.gitee.io/2020/11/11/hello-world/" data-id="ckhf9cuss0000s888h2z2e58j" class="article-share-link">
         分享
       </a>
       
