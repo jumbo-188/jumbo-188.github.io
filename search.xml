@@ -116,6 +116,14 @@
 ]]></content>
   </entry>
   <entry>
+    <title>git学习</title>
+    <url>/2020/11/13/git%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<p>git操作基础命令介绍</p>
+<a id="more"></a>
+
+<h1 id="git"><a href="#git" class="headerlink" title="git"></a>git</h1>]]></content>
+  </entry>
+  <entry>
     <title>Hexo基础</title>
     <url>/2020/11/13/Hexo%E5%9F%BA%E7%A1%80/</url>
     <content><![CDATA[<p>Hexo基础知识介绍</p>
@@ -128,6 +136,9 @@
 <p>网站的 <a href="https://hexo.io/zh-cn/docs/configuration">配置</a> 信息，可以在此配置大部分的参数。</p>
 <p><strong><em>package.json</em></strong></p>
 <p>应用程序的信息。<a href="https://ejs.co/">EJS</a>, <a href="http://learnboost.github.io/stylus/">Stylus</a> 和 <a href="http://daringfireball.net/projects/markdown/">Markdown</a> renderer 已默认安装，可以自由移除。</p>
+<blockquote>
+<p>package.json文件内容</p>
+</blockquote>
 <figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">&quot;name&quot;</span>: <span class="string">&quot;hexo-site&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;version&quot;</span>: <span class="string">&quot;0.0.0&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;private&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">  <span class="attr">&quot;scripts&quot;</span>: &#123;</span><br><span class="line">    <span class="attr">&quot;build&quot;</span>: <span class="string">&quot;hexo generate&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;clean&quot;</span>: <span class="string">&quot;hexo clean&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;deploy&quot;</span>: <span class="string">&quot;hexo deploy&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;server&quot;</span>: <span class="string">&quot;hexo server&quot;</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">&quot;hexo&quot;</span>: &#123;</span><br><span class="line">    <span class="attr">&quot;version&quot;</span>: <span class="string">&quot;5.2.0&quot;</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">&quot;dependencies&quot;</span>: &#123;</span><br><span class="line">    <span class="attr">&quot;hexo&quot;</span>: <span class="string">&quot;^5.0.0&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;hexo-deployer-git&quot;</span>: <span class="string">&quot;^2.1.0&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;hexo-generator-archive&quot;</span>: <span class="string">&quot;^1.0.0&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;hexo-generator-category&quot;</span>: <span class="string">&quot;^1.0.0&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;hexo-generator-index&quot;</span>: <span class="string">&quot;^2.0.0&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;hexo-generator-tag&quot;</span>: <span class="string">&quot;^1.0.0&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;hexo-renderer-ejs&quot;</span>: <span class="string">&quot;^1.0.0&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;hexo-renderer-marked&quot;</span>: <span class="string">&quot;^3.0.0&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;hexo-renderer-pug&quot;</span>: <span class="string">&quot;^1.0.0&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;hexo-renderer-stylus&quot;</span>: <span class="string">&quot;^2.0.1&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;hexo-server&quot;</span>: <span class="string">&quot;^2.0.0&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p><strong><em>scaffolds</em></strong></p>
