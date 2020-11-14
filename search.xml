@@ -116,6 +116,44 @@
 ]]></content>
   </entry>
   <entry>
+    <title>HTML基础教程</title>
+    <url>/2020/11/14/html%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>HTML基础教程介绍</p>
+<!---more-->
+
+
+
+<h1 id="HTML基础概念"><a href="#HTML基础概念" class="headerlink" title="HTML基础概念"></a>HTML基础概念</h1><p>HTML是用来描述网页的一种语言</p>
+<ul>
+<li>HTML指的是超文本标记语言(Hyper Text Markup Language)</li>
+<li>HTML不是一种编程语言，而是一种<strong>标记语言</strong>(markup language)</li>
+<li>标记语言是一套<strong>标记标签</strong>(markup tag)</li>
+<li>HTML使用<strong>标记标签</strong>来描述网页</li>
+</ul>
+<h2 id="HTML标记标签"><a href="#HTML标记标签" class="headerlink" title="HTML标记标签"></a>HTML标记标签</h2><p>HTML 标记标签通常被称为 HTML 标签 (HTML tag)。</p>
+<ul>
+<li>HTML 标签是由<strong>尖括号</strong>包围的关键词，比如 <code>&lt;html&gt;</code></li>
+<li>HTML 标签通常是<strong>成对出现</strong>的，比如 <code>&lt;b&gt;</code> 和 <code>&lt;/b&gt;</code></li>
+<li>标签对中的第一个标签是<strong>开始标签</strong>，第二个标签是<strong>结束标签</strong></li>
+<li>开始和结束标签也被称为<strong>开放标签</strong>和<strong>闭合标签</strong></li>
+</ul>
+<h2 id="HTML文档和网页"><a href="#HTML文档和网页" class="headerlink" title="HTML文档和网页"></a>HTML文档和网页</h2><ul>
+<li>HTML文档描述网页</li>
+<li>HTML文档包含HTML标签和纯文本</li>
+<li>HTML文档也被称为网页</li>
+</ul>
+<p>Web浏览器的作用是读取HTML文档，并以网页的形式显示出他们。浏览器不会显示 HTML 标签，而是使用标签来解释页面的内容：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>我的第一个标题<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>我的第一个段落。<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>&lt;html&gt;</code> 与<code>&lt;/html&gt;</code>之间的文本描述网页</li>
+<li><code>&lt;body&gt; </code>与<code> &lt;/body&gt;</code> 之间的文本是可见的页面内容</li>
+<li><code>&lt;h1&gt;</code> 与 <code>&lt;/h1&gt;</code> 之间的文本被显示为标题</li>
+<li><code>&lt;p&gt;</code> 与 <code>&lt;/p&gt;</code> 之间的文本被显示为段落</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
     <title>git学习</title>
     <url>/2020/11/13/git%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<p>git操作基础命令介绍</p>
